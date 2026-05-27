@@ -1,0 +1,26 @@
+source_dx	concurrent_dx	reason_en	reason_cn
+DX-K02.1	DX-K04.00	Deep caries with brief cold sensitivity may have concurrent reversible pulpitis	深龋伴短暂冷敏感可能并存可复性牙髓炎
+DX-K02.1	DX-K04.01	If the lesion progresses to pulpal involvement, K04.01 becomes the primary diagnosis	若病损进展至牙髓受累，K04.01成为主要诊断
+DX-K04.00	DX-K02.1	Reversible pulpitis is almost always secondary to caries — document the caries lesion too	可复性牙髓炎几乎总是继发于龋——同时记录龋损
+DX-K04.01	DX-K02.1	Document the underlying caries lesion that caused the pulpitis	记录引起牙髓炎的原发龋损
+DX-K04.1	DX-K04.5	Pulp necrosis is typically followed by periapical involvement; check periapical X-ray	牙髓坏死后常有根尖周受累；建议查根尖片
+DX-K04.1	DX-K02.1	Document the originating caries lesion if present	如存在原发龋损，应同时记录
+DX-K04.5	DX-K04.1	Chronic apical periodontitis implies a non-vital pulp — document pulp necrosis as concurrent	慢性根尖周炎提示牙髓无活力——应同时记录牙髓坏死
+DX-K04.6	DX-K04.1	Sinus drainage implies non-vital pulp	窦道引流提示牙髓无活力
+DX-K04.6	DX-K04.5	Often associated with chronic apical periodontitis	常并存慢性根尖周炎
+DX-K04.7	DX-K04.1	Acute apical abscess implies non-vital pulp	急性根尖脓肿提示牙髓无活力
+DX-K02.7	DX-K06.0	Root caries usually accompanies gingival recession — document the recession	根面龋常伴牙龈退缩——记录退缩
+DX-K02.7	DX-K05.30	Recession + root caries is often a marker of periodontitis history	退缩+根面龋常提示既往牙周炎史
+DX-K05.30	DX-K02.7	Exposed roots from periodontitis are susceptible to root caries — examine	牙周炎导致的根面暴露易发根面龋——检查
+DX-K05.30	DX-K06.0	Periodontitis often presents with concomitant gingival recession	牙周炎常伴牙龈退缩
+DX-K05.31	DX-K02.7	Generalised exposed roots — high root-caries risk	广泛根面暴露——根面龋风险高
+DX-K05.31	DX-K06.0	Generalised recession typically accompanies generalised periodontitis	广泛性退缩常伴广泛性牙周炎
+DX-K05.20	DX-K05.30	Periodontal abscess usually arises in pre-existing chronic periodontitis — document underlying disease	牙周脓肿常在既存慢性牙周炎基础上发生——记录基础疾病
+DX-K05.20	DX-K05.31	Same — generalised form if widespread disease present	同上——如全口受累记录广泛性
+DX-K06.0	DX-K02.7	Recession exposes root surface — examine for caries	退缩暴露根面——检查根面龋
+DX-K13.21	DX-K13.71	Examine the surrounding mucosa carefully — any red component (mixed erythroleukoplakia) is a much higher-risk lesion	仔细检查周围黏膜——伴红色成分（混合性红白斑）为更高危病变
+DX-K13.21	DX-K13.5	Check for areca/betel use and trismus — submucous fibrosis often coexists in Asian populations	询问槟榔使用史并查张口度——亚洲人群常合并黏膜下纤维化
+DX-K13.71	DX-K13.21	Adjacent or background leukoplakia is common — biopsy the most erythematous area first	邻近或背景白斑常见——优先活检最红区域
+DX-K13.5	DX-K13.21	Leukoplakia frequently coexists with OSMF and shares the malignant transformation pathway	白斑常与OSMF并存，恶变通路相同
+DX-K13.5	DX-K13.71	Any red area within OSMF needs urgent biopsy — high transformation risk	OSMF内任何红色区域需紧急活检——高恶变风险
+DX-K13.72	DX-K13.21	Differentiate from leukoplakia (biopsy may show lichenoid dysplasia); document if both present	与白斑鉴别（活检可能为苔藓样异型增生）；如二者并存均记录
