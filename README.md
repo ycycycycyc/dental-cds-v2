@@ -5,6 +5,22 @@ A **diagnosis-first** dental clinical decision support pilot. Single-file intera
 
 以**诊断为入口**的牙科决策支持试点。单文件交互演示，全部逻辑在浏览器本地运行，无需后端服务。
 
+**👉 Live demo: https://ycycycycyc.github.io/dental-cds-v2/**
+
+### What's new / 最近更新
+
+**2026-05-27**
+- ✅ All 28 references URL/DOI-verified — see `ATTRIBUTIONS.md`
+- ✅ Tiered non-healing rule: 14-day caution + 21-day NICE NG12 urgent (replaces single 14-day rule)
+- ✅ Roadmap published — `ROADMAP.md` lists all P1–P5 pending work
+
+**2026-05-26**
+- ✅ FDI tooth notation with auto-derivation + canal-count clinician input
+- ✅ Anatomical alerts (MB2, C-shape, lower incisor 2-canal etc.)
+- ✅ 30 NHSA 立项指南 billing items mapped to treatments
+
+更新摘要：参考文献全部核实 / 两档不愈合规则 / FDI 牙位 / NHSA 立项指南 / 见 ATTRIBUTIONS.md 与 ROADMAP.md。
+
 ---
 
 ## ⚠ Disclaimer / 免责声明
@@ -24,13 +40,16 @@ The diagnostic logic, treatment options, and NHSA billing items have **not** bee
 - **29 diagnoses** across 5 ICD-10 domains: pulpal, periapical, caries, periodontal, mucosal/oncology
 - **65 treatments** gated by clinical answers (auto-selected from clinical state)
 - **35 symptoms** with weighted differential mapping
-- **10 red flags** including the two-week non-healing rule for oral cancer screening
-- **30 NHSA 立项指南 items** mapped to treatments — real codes from 国家医保局 2024-2025 publications
-- **52 FDI tooth lookup** with anatomical alerts (MB2, C-shape, etc.)
+- **11 red flags** including:
+  - Two-tier oral-cancer screening (14-day caution → 21-day NICE NG12 urgent referral)
+  - MRONJ, ORN, anticoagulant coordination, uncontrolled diabetes, spreading infection
+- **30 NHSA 立项指南 items** mapped to 34 of 65 treatments — real codes from 国家医保局 2024-2025 publications
+- **52 FDI tooth lookup** with anatomical alerts (MB2, C-shape, etc.) — auto-derives tooth_type / tooth_position / quadrant
+- **28 references** — all URL/DOI-verified (AAE, Cohen's, EFP S3, Tonetti 2018, MASCC, WHO OPMD, NICE NG12, etc.)
 - **3 entry points**: by ICD code · by name (EN/CN + synonyms) · by symptom-driven differential
 - Bilingual (EN / 中文 / Both)
 
-29 项诊断 · 65 项治疗 · 35 项症状 · 10 项红色警报 · 30 项 NHSA 立项指南 · 52 颗 FDI 牙位 · 3 种入口 · 中英双语
+29 项诊断 · 65 项治疗 · 35 项症状 · 11 项红色警报 · 30 项 NHSA 立项指南 · 52 颗 FDI 牙位 · 28 篇参考文献（全部已核实 URL/DOI）· 3 种入口 · 中英双语
 
 ---
 
@@ -81,11 +100,11 @@ See `ATTRIBUTIONS.md` for full citations. Key sources:
 | 正畸/错合畸形 (K07.x, 23 NHSA items unmapped) | 未建模 |
 | 种植 (15 NHSA items unmapped) | 未建模 |
 | K00 / K03 / K09 / K11 / K14 全部章节 | 未建模 |
-| 24/28 references | URL 未核实 (4 已核实) |
+| References URL/DOI verification | ✓ 全部 28 个 已核实 (2026-05-27) |
 | NHSA OCR 低置信度项目 | 口腔类-36, -91, -93 待原文复核 |
 | 中国 ICD-10 编码对齐 | 当前用 WHO 5位格式，未对齐中国 6位+x 扩展 |
 | 省级价格 | 国家立项指南不含价格，待省级 |
-| 临床医师签字 | 未完成 |
+| 临床医师签字 | **未完成 (P1 blocker)** |
 
 ---
 
