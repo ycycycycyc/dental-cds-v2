@@ -1,0 +1,75 @@
+symptom_id	name_en	name_cn	candidate_dx_id	weight
+SY-spontaneous_pain	Spontaneous pain (no trigger)	自发痛 (无诱因)	DX-K04.01	0.9
+SY-spontaneous_pain	Spontaneous pain (no trigger)	自发痛 (无诱因)	DX-K04.02	0.9
+SY-spontaneous_pain	Spontaneous pain (no trigger)	自发痛 (无诱因)	DX-K04.4	0.7
+SY-spontaneous_pain	Spontaneous pain (no trigger)	自发痛 (无诱因)	DX-K04.7	0.9
+SY-nocturnal_pain	Nocturnal pain / worse at night	夜间痛/夜间加重	DX-K04.01	0.95
+SY-nocturnal_pain	Nocturnal pain / worse at night	夜间痛/夜间加重	DX-K04.02	0.8
+SY-nocturnal_pain	Nocturnal pain / worse at night	夜间痛/夜间加重	DX-K04.4	0.5
+SY-cold_brief	Brief cold sensitivity (<30s)	短暂冷敏感 (<30秒)	DX-K04.00	0.9
+SY-cold_lingering	Lingering cold pain (>30s)	冷刺激持续痛 (>30秒)	DX-K04.01	0.9
+SY-cold_lingering	Lingering cold pain (>30s)	冷刺激持续痛 (>30秒)	DX-K04.02	0.6
+SY-cold_relieves	Cold relieves pain (paradoxical)	冷刺激可缓解疼痛 (反常)	DX-K04.02	0.95
+SY-percussion_severe	Severe pain on percussion / biting	叩痛/咬合痛剧烈	DX-K04.4	0.95
+SY-percussion_severe	Severe pain on percussion / biting	叩痛/咬合痛剧烈	DX-K04.7	0.9
+SY-percussion_severe	Severe pain on percussion / biting	叩痛/咬合痛剧烈	DX-K04.02	0.6
+SY-tooth_feels_high	Tooth feels 'high' / extruded	患牙浮起感/伸长感	DX-K04.4	0.9
+SY-tooth_feels_high	Tooth feels 'high' / extruded	患牙浮起感/伸长感	DX-K04.7	0.7
+SY-swelling	Localised swelling	局部肿胀	DX-K04.7	0.95
+SY-swelling	Localised swelling	局部肿胀	DX-K04.6	0.4
+SY-sinus_tract	Sinus tract / gum boil / parulis	窦道/牙龈瘘管/牙龈疖	DX-K04.6	0.99
+SY-fever	Fever / systemic illness	发热/全身症状	DX-K04.7	0.8
+SY-no_vitality_response	No response to vitality test	活力测试无反应	DX-K04.1	0.95
+SY-no_vitality_response	No response to vitality test	活力测试无反应	DX-K04.5	0.7
+SY-no_vitality_response	No response to vitality test	活力测试无反应	DX-K04.6	0.7
+SY-no_vitality_response	No response to vitality test	活力测试无反应	DX-K04.7	0.6
+SY-asymptomatic_radiolucency	Asymptomatic periapical radiolucency on X-ray	X线无症状根尖透射影	DX-K04.5	0.95
+SY-asymptomatic_radiolucency	Asymptomatic periapical radiolucency on X-ray	X线无症状根尖透射影	DX-K04.6	0.4
+SY-visible_cavity	Visible carious cavity	肉眼可见龋洞	DX-K02.1	0.9
+SY-visible_cavity	Visible carious cavity	肉眼可见龋洞	DX-K02.7	0.6
+SY-white_spot	White-spot lesion (no cavitation)	白斑病变 (无龋洞)	DX-K02.0	0.95
+SY-white_spot	White-spot lesion (no cavitation)	白斑病变 (无龋洞)	DX-K02.51	0.7
+SY-cold_sweet_brief	Brief pain to cold or sweet	对冷/甜短暂痛	DX-K02.1	0.7
+SY-cold_sweet_brief	Brief pain to cold or sweet	对冷/甜短暂痛	DX-K04.00	0.7
+SY-food_impaction	Food impaction / catches floss	食物嵌塞/牙线挂线	DX-K02.1	0.7
+SY-discoloured_brown_shiny	Hard, brown/dark, shiny lesion	硬质、深褐色、光泽病损	DX-K02.3	0.95
+SY-recession_exposed_root	Gingival recession with exposed root surface lesion	牙龈退缩伴根面暴露病损	DX-K02.7	0.95
+SY-bleeding_gums	Bleeding gums (when brushing/probing)	牙龈出血（刷牙/探诊时）	DX-K05.10	0.85
+SY-bleeding_gums	Bleeding gums (when brushing/probing)	牙龈出血（刷牙/探诊时）	DX-K05.30	0.6
+SY-bleeding_gums	Bleeding gums (when brushing/probing)	牙龈出血（刷牙/探诊时）	DX-K05.31	0.6
+SY-bleeding_gums	Bleeding gums (when brushing/probing)	牙龈出血（刷牙/探诊时）	DX-K05.20	0.5
+SY-loose_teeth	Loose teeth / mobility	牙齿松动	DX-K05.31	0.85
+SY-loose_teeth	Loose teeth / mobility	牙齿松动	DX-K05.30	0.6
+SY-gum_recession	Visible gum recession	肉眼可见牙龈退缩	DX-K06.0	0.95
+SY-gum_recession	Visible gum recession	肉眼可见牙龈退缩	DX-K05.31	0.5
+SY-gum_recession	Visible gum recession	肉眼可见牙龈退缩	DX-K02.7	0.4
+SY-gum_swelling_localised	Localised gum swelling (single area)	局限性牙龈肿胀（单一部位）	DX-K05.20	0.9
+SY-gum_swelling_localised	Localised gum swelling (single area)	局限性牙龈肿胀（单一部位）	DX-K04.7	0.4
+SY-gum_overgrowth	Gum overgrowth / enlargement	牙龈增生/过度生长	DX-K06.1	0.95
+SY-gum_overgrowth	Gum overgrowth / enlargement	牙龈增生/过度生长	DX-K05.11	0.4
+SY-bad_breath	Persistent halitosis (bad breath)	持续性口臭	DX-K05.30	0.5
+SY-bad_breath	Persistent halitosis (bad breath)	持续性口臭	DX-K05.31	0.6
+SY-bad_breath	Persistent halitosis (bad breath)	持续性口臭	DX-K05.20	0.4
+SY-pus_from_gum	Pus discharge from gum margin	牙龈缘溢脓	DX-K05.20	0.9
+SY-pus_from_gum	Pus discharge from gum margin	牙龈缘溢脓	DX-K05.31	0.5
+SY-recurrent_ulcers	Recurrent painful oral ulcers (recur every few weeks/months)	复发性口腔疼痛性溃疡（每数周/数月复发）	DX-K12.0	0.95
+SY-recurrent_ulcers	Recurrent painful oral ulcers (recur every few weeks/months)	复发性口腔疼痛性溃疡（每数周/数月复发）	DX-K13.72	0.4
+SY-persistent_white_patch	Persistent white patch (does not rub off)	持续性白色斑块（不可擦除）	DX-K13.21	0.95
+SY-persistent_white_patch	Persistent white patch (does not rub off)	持续性白色斑块（不可擦除）	DX-K13.72	0.4
+SY-persistent_white_patch	Persistent white patch (does not rub off)	持续性白色斑块（不可擦除）	DX-K13.5	0.3
+SY-persistent_red_patch	Persistent red patch (no clear cause)	持续性红色斑块（无明确病因）	DX-K13.71	0.98
+SY-persistent_red_patch	Persistent red patch (no clear cause)	持续性红色斑块（无明确病因）	DX-K13.72	0.4
+SY-non_healing_ulcer	Non-healing oral ulcer (≥ 2 weeks)	口腔溃疡不愈合（≥2周）	DX-K13.71	0.6
+SY-non_healing_ulcer	Non-healing oral ulcer (≥ 2 weeks)	口腔溃疡不愈合（≥2周）	DX-K13.21	0.5
+SY-non_healing_ulcer	Non-healing oral ulcer (≥ 2 weeks)	口腔溃疡不愈合（≥2周）	DX-K13.5	0.4
+SY-non_healing_ulcer	Non-healing oral ulcer (≥ 2 weeks)	口腔溃疡不愈合（≥2周）	DX-K13.72	0.3
+SY-restricted_mouth_opening	Progressive restricted mouth opening (trismus, not acute)	进行性张口受限（非急性）	DX-K13.5	0.9
+SY-burning_mucosa	Burning sensation in oral mucosa	口腔黏膜灼烧感	DX-K13.5	0.7
+SY-burning_mucosa	Burning sensation in oral mucosa	口腔黏膜灼烧感	DX-K13.72	0.5
+SY-burning_mucosa	Burning sensation in oral mucosa	口腔黏膜灼烧感	DX-K12.3	0.5
+SY-lacy_white_pattern	Lacy white pattern on cheek mucosa (Wickham's striae)	颊黏膜蕾丝状白纹（Wickham纹）	DX-K13.72	0.95
+SY-angular_lip_cracks	Cracks / soreness at corners of mouth	口角皲裂/疼痛	DX-K13.0	0.95
+SY-recent_chemo_or_xrt	Recent chemotherapy or head/neck radiation	近期化疗或头颈部放疗	DX-K12.3	0.95
+SY-induration	Indurated (firm) area in oral mucosa	口腔黏膜硬结	DX-K13.71	0.7
+SY-induration	Indurated (firm) area in oral mucosa	口腔黏膜硬结	DX-K13.21	0.6
+SY-induration	Indurated (firm) area in oral mucosa	口腔黏膜硬结	DX-K13.5	0.4
