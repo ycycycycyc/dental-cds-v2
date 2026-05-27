@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 Yuji Chen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL CLINICAL DISCLAIMER:
+
+This software is a clinical-decision-support PILOT for review and educational
+purposes only. It has NOT been clinically validated or signed off by licensed
+practitioners. It is NOT a medical device and MUST NOT be used as a substitute
+for professional clinical judgment, diagnosis, or treatment.
+
+Any third party deploying or using this software for actual patient care does
+so entirely at their own risk and accepts full responsibility for any clinical
+outcomes. The authors and contributors disclaim all liability for medical,
+billing, or other harm arising from misuse.
+
+本软件为临床决策支持试点，仅供审阅与教育用途。未经临床验证或执业医师签字。
+不属于医疗器械，不可用于替代专业临床判断、诊断或治疗。第三方部署或将本软件
+用于实际诊疗，风险与责任全部自负。作者及贡献者对因误用产生的医疗、收费或
+其他损害不承担任何责任。
